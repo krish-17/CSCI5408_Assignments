@@ -1,0 +1,12 @@
+1613633913985-$-update olist_orders set order_status='delivered' where order_id='00bca4adac549020c1273714d04d0208'-$-true-$-1613633913585-$-
+1613633913995-$-update olist_customers set customer_city='sao paulo', customer_zip_code_prefix=4841 where customer_id='02d34c287580a6f46ad7ffc395bbc208'-$-true-$-1613633913993-$-
+1613633914621-$-insert into olist_sellers values('3442f8959a84dea7ee197c632cb2df45', 13023, 'campinas', 'SP')-$-true-$-1613633913995-$-
+1613633914676-$-update olist_sellers set seller_city='sao paulo', seller_zip_code_prefix=4841 where seller_id='3442f8959a84dea7ee197c632cb2df45'-$-true-$-1613633914621-$-
+1613633914732-$-delete from olist_sellers where seller_id='3442f8959a84dea7ee197c632cb2df45'-$-true-$-1613633914676-$-
+1613633914873-$-update olist_orders set order_delivered_carrier_date='2017-02-14 18:03:38' where order_id='00bca4adac549020c1273714d04d0208'-$-true-$-1613633914855-$-
+1613633914874-$-update olist_customers set customer_city='rio de janeiro', customer_state='RJ', customer_zip_code_prefix=20540 where customer_id='0002414f95344307404f0ace7a26f1d5'-$-true-$-1613633914873-$-
+1613633915537-$-update olist_order_reviews set review_comment_title='Amazing product' where review_id='7bc2406110b926393aa56f80a40eba40'-$-true-$-1613633914874-$-
+1613633915637-$-update olist_order_reviews set review_comment_message='Delivered rightly on time. love Data5408' where review_id='7bc2406110b926393aa56f80a40eba40'-$-true-$-1613633915537-$-
+1613633915716-$-delete from olist_products where product_id='9dc1a7de274444849c219cff195d0b71'-$-true-$-1613633915638-$-
+1613815507225-$-update olist_orders set order_status='delivered' where order_id='00bca4adac549020c1273714d04d0208'-$-true-$-1613815506383-$-
+1613815507248-$-update olist_customers set customer_city='sao paulo', customer_zip_code_prefix=4841 where customer_id='02d34c287580a6f46ad7ffc395bbc208'-$-true-$-1613815507241-$-
